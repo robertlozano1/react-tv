@@ -14,7 +14,14 @@ export default function App() {
   return (
     <>
       <header>
-        <h1>React TV</h1>
+        <div className="header-title">
+          <img
+            src="/images/logo_dark.svg"
+            alt="React TV Logo"
+            className="logo"
+          />
+          <h1>React TV</h1>
+        </div>
         <ShowSelection shows={shows} setSelectedShow={setSelectedShow} />
       </header>
       <main>
