@@ -10,7 +10,7 @@
 
 .episodes li {
   padding: 0.75rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   cursor: pointer;
 }
 
@@ -35,23 +35,24 @@
 .episode-details h2 {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.025rem;
 }
 
 .episode-details h3 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
 }
 
 .episode-details p {
   font-size: 1.125rem;
   line-height: 1.5;
-  margin-bottom: 2rem;
+  margin-bottom: 0.6rem;
 }
 
 .episode-details button {
   width: 100%;
-  padding: 1rem;
+  padding: 0.75rem;
   font-size: 1rem;
+  color: black;
 }

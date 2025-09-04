@@ -8,17 +8,14 @@ import ShowDetails from "./shows/ShowDetails.jsx";
  * through the episodes of a variety of different shows.
  */
 export default function App() {
-  const [selectedShow, setSelectedShow] = useState(tvShows[0]);
+  const [shows, setShows] = useState(tvShows);
+  const [selectedShow, setSelectedShow] = useState(shows[0]);
 
   return (
     <>
       <header>
         <h1>React TV</h1>
-        <ShowSelection
-          shows={tvShows}
-          selectedShow={selectedShow}
-          setSelectedShow={setSelectedShow}
-        />
+        <ShowSelection shows={shows} setSelectedShow={setSelectedShow} />
       </header>
       <main>
         <ShowDetails show={selectedShow} />

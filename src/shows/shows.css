@@ -1,11 +1,12 @@
 .shows {
   display: flex;
-  gap: 2rem;
+  align-items: center;
+  gap: 1rem;
 }
 
 .show {
   padding: 0.5rem 0;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   color: white;
   text-decoration: none;
 }
@@ -16,6 +17,15 @@
 
 .show.selected {
   text-decoration: underline;
+}
+
+.separator {
+  font-size: 1.125rem;
+  color: white;
+  line-height: 1;
+  transform: scaleY(1.5);
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .show-details {
